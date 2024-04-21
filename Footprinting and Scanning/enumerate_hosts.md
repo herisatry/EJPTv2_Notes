@@ -13,8 +13,6 @@
 `nmap -AT4 -iL hosts.txt -p- -oN namp-all.nmap` 
 ### nmap vul scan on alive hosts
 `nmap --script vuln --script-args=unsafe=1 -iL hosts.txt`
-## scan of ports to export for metasploit
-### Generating file for metasploit.
-`sudo nmap -sS -A -T4 -p- $IP -oX export_for_msf.xml`
-### Then, import into metasploit framework
-`db_import /home/kali/Desktop/export_for_msf.xml`
+
+---
+---

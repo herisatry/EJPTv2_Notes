@@ -7,25 +7,25 @@
 1. make sure postgres is running 
 
 ```bash
-root@kali:~# sudo systemctl start postgresql
+sudo systemctl start postgresql
 ```
 
 2. initialize metasploit database
 
 ```bash
-root@kali:~# sudo msfdb init
+sudo msfdb init
 ```
 
 3. launch metasploit console
 
 ```bash
-root@kali:~# msfconsole
+msfconsole
 ```
 
 ### After first run
 
 ```bash
-root@kali:~# sudo service postgresql start && msfconsole
+sudo service postgresql start && msfconsole
 ```
 
 ### Setting global variable in msf

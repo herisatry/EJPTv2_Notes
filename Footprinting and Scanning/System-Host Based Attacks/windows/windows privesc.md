@@ -28,3 +28,5 @@ for enumerating vulnerabilities on windows system.
 
 https://github.com/hfiref0x/UACME
 
+
+## DUMPING WINDOWS PASSWORD HASHES
